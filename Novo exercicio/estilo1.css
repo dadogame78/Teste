@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gloria+Hallelujah&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap');
+:root {
+--font1: "Gloria Hallelujah", cursive;
+--font2: "Caacupe One", sans-serif;
+
+}
+
+
+* {
+margin: 0px;
+padding: 0px;
+
+
+}
+
+
+html, body {
+background-color: antiquewhite;
+min-height: 100vh;
+
+}
+
+header {
+background-color: black;
+color: white;
+text-align: center;
+font-family: var(--font2);
+font-size: 2.2em;
+
+}
+
+header > h1 {
+padding: 10px 0px 0px 0px;
+font-variant: small-caps;
+
+}
+
+header > p {
+padding-bottom: 50px;
+
+}
+
+a {
+color: white;
+text-decoration: none;
+font-weight: bolder;
+
+
+}
+
+a:hover {
+text-decoration: underline;
+
+}
+
+footer {
+background-color: black;
+text-align: center;
+color: white;
+padding: 10px;
+}
+section{
+padding-top: 10vh;
+padding-bottom: 10vh;
+line-height: 2em;
+padding-left: 30px;
+font-family: var(--font1);
+font-weight: bolder;
+font-size: 3.5vw;
+}
+
+section.imagem {
+background-color: rgb(29, 29, 29);
+color: aliceblue;
+}
+section.imagem > p {
+display: inline-block;
+background-color: #fcf8f842;
+padding: 10px;
+}
+
+section.normal {
+background-color: rgb(253, 253, 253);
+
+}
